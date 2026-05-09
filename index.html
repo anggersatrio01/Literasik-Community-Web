@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literasik Community</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class = "Header">
+        <h1 id = "title"> Literasik</h1>
+
+        <nav>
+             <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#event">Events</a></li>
+                    <li><a href="#join">Join</a></li>
+             </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section id = "home">
+             <div class="hero-section">
+                <h2>Menjadi wadah penyalur dirimu dengan dunia imajinasi</h2>
+                <p>Ayo mulai perjalanan lebih jauh bersama kami</p>
+             </div>
+        </section>
+
+        <!-- About -->
+         <section id = "about">
+            <div class = "about-us">
+                <h2>Tentang Kami</h2>
+                <p>
+                    Komunitas ini dibentuk sebagai ruang bagi para pecinta buku untuk saling terhubung, 
+                    berbagi cerita, dan tumbuh bersama melalui membaca. Kami percaya bahwa setiap buku 
+                    membawa perspektif baru yang layak untuk dibagikan secara bersama-sama. Melalui berbagai kegiatan 
+                    literasi, diskusi buku, dan rekomendasi bacaan pilihan, kami ingin menciptakan lingkungan yang nyaman 
+                    bagi siapa saja yang ingin memperluas wawasan dan menemukan inspirasi baru. Bagi kami, membaca bukan hanya sekadar hobi, 
+                    tetapi juga cara untuk memahami dunia, mengenal berbagai sudut pandang, dan membangun kebiasaan positif di tengah perkembangan era digital.
+                    Kami hadir untuk mengajak lebih banyak generasi muda agar menjadikan literasi sebagai bagian dari kehidupan sehari-hari, 
+                    sekaligus membangun komunitas yang suportif, kreatif, dan penuh semangat untuk terus belajar bersama.
+                </p>
+            </div>
+         </section>
+
+
+        <!-- Books -->
+         <section id = "books">
+            <div class = "trending-books">
+                <h2 id="title-trending"> Trending Books this week</h2>
+                <a  id="book-link" href="#" target="_blank">
+                <img id="book-image" src="img/trending book.jpg" alt="Novel Harry Potter 1">
+                </a>
+                <div class="book-info">
+                    <h3 id="book-title">Harry Potter dan Philosopher's Stone</h3>
+                    <p id="book-author">Penulis : JK Rowling</p>
+                    <p id="book-year">Tahun Terbit : 26 Juni 1997</p>
+                    <p id="book-read">Dibaca: 1 juta kali</p>
+                </div>
+                <button id="random-book-btn" class="explore-btn">
+                    Explore More Books
+                </button>
+            </div>
+         </section>
+
+
+        <!--Event-->
+        <section id ="event">
+            <div class = "our-event">
+                <h2> Our Event</h2>
+                <div class="event-container">
+                    <div class ="event-card">
+                        <img src="img/about 1.jpg" alt="tea time sambil baca buku">
+                        <h3>Tea Time Jumat Sore</h3>
+                    </div>
+                    <div class ="event-card">
+                        <img src="img/about 2.jpg" alt="piknik sore">
+                        <h3>Piknik sore awal bulan</h3>
+                    </div>
+                    <div class ="event-card">
+                        <img src="img/about 3.jpg" alt="night camp">
+                        <h3>Camping Malam Tahun Baru</h3>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <!-- Form -->
+         <section id="join">
+            <div class = "formulir">
+                <h2>Ayo jadi bagian dari kami</h2>
+                <form id="RegistForm" method="post">
+                    <div class="label-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" name="nama" required>
+                    </div>
+                
+                    <div class="label-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="label-group">
+                        <label for="usia">Usia</label>
+                        <input type="number" id="usia" name="usia" required>
+                    </div>
+                    
+                    <div class="label-group">
+                        <label for="pesan">Alasan kamu join</label>
+                        <textarea id="pesan" name="pesan" required></textarea>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+         </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p>&copy; 2026 Literasik. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
